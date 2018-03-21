@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <h2>Disregard The things you see below, for educational purposes only</h2>
 	<p>At the moment tebora is basic, it's a bunch of links and a poorly written opening to a sci-fi novel.It is however, my hope to evolve this site into something that is not so shitty. As you scroll down through this site take note of the progression and the slow evolution content and features, if you can't scroll down then I have just started my journey, hold tight though I promise it will get better. </p>
 	<p2>Date: 03/04/2018</p2>
@@ -218,6 +219,227 @@
 	  </div>
 	</div>
 	
+=======
+<h2>Disregard The things you see below, for educational purposes only</h2>
+	<p>At the moment tebora is basic, it's a bunch of links and a poorly written opening to a sci-fi novel.It is however, my hope to evolve this site into something that is not so shitty. As you scroll down through this site take note of the progression and the slow evolution content and features, if you can't scroll down then I have just started my journey, hold tight though I promise it will get better. </p>
+	<p2>Date: 03/04/2018</p2>
+	
+	
+	<h3>This dude made some dope notes far better than mine check it out for inspiration</H3>
+	<a href="Captain Anonymous Notes.html">Captain Anonymous Notes</a>
+	<p>	Note:This is is an html filel save in the same folder of this website</p>
+	
+	<h3>Radio Buttons</h3>
+		<label><input type="radio" name="indoor-outdoor"checked> Indoor</label>
+		<label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+		<label><input type="radio" name="indoor-outdoor"> Transdimensional Plane</label>
+	<h3>Checkboxes</h3>
+		<label><input type="checkbox" name="site-attributes" checked> This site blows</label>
+		<label><input type="checkbox" name="site-attributes"> These checkboxes do nothing</label>
+		<label><input type="checkbox" name="site-attributes"> Why is this a checkbox ?</label>
+	
+	<style>
+	.silver-background{background: silver;}
+	</style>
+	<div class="silver-background">
+		<h3>Using and style class element and division to Make the background silver</h3>
+			<ul><h4>List of unorderness</h4>
+				<li> This is an unordered List </li>
+				<li> Within a division (div) element that contains the class attribute labeled: silver-background</div>
+			</ul>
+	</div>
+	
+	<h3> Creating a form with an id attribute: cat-photo-form, and css attribute of green background<h3>
+	<style>
+	#cat-photo-form{background-color:green;}
+	</style>
+	<form action="/submit-cat-photo" id ="cat-photo-form">
+		<label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+		<label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+		<label><input type="checkbox" name="personality" checked> Loving</label>
+		<label><input type="checkbox" name="personality"> Lazy</label>
+		<label><input type="checkbox" name="personality"> Energetic</label>
+		<input type="text" placeholder="cat photo URL" required>
+		<button type="submit">Submit</button>
+	</form>
+	
+	<h3>Boxes margins and padding using style attributes and divisions</h3>
+	<p>
+	The margin clears an area around an element (outside the border), but the padding clears an area around the content (inside the border) of an element. it means that your element does not know about its outside margins, so if you are developing dynamic web controls, I recommend that to use padding vs margin if you can.
+	</p>
+	<style>
+		.injected-text {margin-bottom: -25px; text-align: center;}
+		.box {border-style: solid;border-color: black;border-width: 5px;text-align: center;}
+		.yellow-box {background-color: yellow;padding: 10px;}
+		.red-box {    
+			background-color: red;
+			padding-top: 40px;
+			padding-right: 20px;
+			padding-bottom: 20px;
+			padding-left: 40px;
+		}
+		.green-box {
+			background-color: green;
+			margin-top: 40px;
+			margin-right: 20px;
+			margin-bottom: 20px;
+			margin-left: 40px;
+		}
+	</style>
+	<h5 class="injected-text">margin</h5>
+	<div class="box yellow-box">
+	  <h5 class="box red-box">padding</h5>
+	  <h5 class="box green-box">Margin adjust</h5>
+	</div>
+		
+	<h3>Elements styled using id attributes</h3>
+	<style>
+		#orange-text{color:orange;}		
+	</style>
+	<h3 id="orange-text">This text has id of orange-text and its id has been declare in the css style element</h3>
+	
+	<h3>Inline style attributes override id attributes and class attributes regardless of ordering<h3>
+	<style>
+	  #orange-text {
+		color: orange;
+	  }
+	  .pink-text {
+		color: pink;
+	  }
+	  .blue-text {
+		color: blue;
+	  }
+	</style>
+	<h1 style="color:green" id="orange-text" class="pink-text">Hello World!</h1>
+	<style>
+	 .blue-text {
+		color: blue !important;
+		}
+	.thick-green-border {
+		border-color: green;
+		border-width: 10px;
+		border-style: solid;
+		border-radius: 50%;
+	  }
+	  }
+	</style>
+	<h1 style="color:green" id="orange-text" class="pink-text blue-text">the !important style modifier trumps all inline and css attributes</h1>
+	
+	
+	
+	<p>Date: 03/06/2018</p>
+	<h1>Using Bootstrap</h1>
+	<p>Bootstrap determines how wide your screen is and responds by resizing your HTML elements </p>
+	
+	<h3>Boot strap can be added to you page by pasting this css ref at the top of your code:</h3>
+	<p><code>&#60;link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/&#62;</code></p>
+
+
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+	
+	 <h3>Example of bootstrap css classes</h3>
+	 <h4>img-responsive</h4>
+	 <p> this scales the pictures to fit the width of the page or the max px of the picture</p>
+	 <img class="img-responsive" src="https://i.imgur.com/z6qqnsT.png">
+	
+	<h4 class="text-center">This text has been centered using text-center class</h4>
+	
+	<button class="btn"> Button using btn class</button>
+	<button class=" btn-block">btn-block to stretch this button across the page</button>
+	<button class="btn btn-block">btn + btn-block to stretch this button across the page</button>
+	<button class="btn btn-block btn-primary btn-info">+btn-primary +btn-info</button>
+	 <button class="btn btn-block btn-danger">btn-danger</button>
+	
+	<h3 class="text-center">Using div with class row and col-xs-4</h3>
+	<div class="row">
+		<div class="col-xs-4"><button class="btn btn-block btn-primary">Like</button></div>
+		<div class="col-xs-4"><button class="btn btn-block btn-info">Info</button></div>
+		<div class="col-xs-4"><button class="btn btn-block btn-danger">Delete</button></div>
+	</div>
+	
+	
+	<h3>Span elements with inline style classes within other elements<h3>
+	<p>Top 3 things cats <span class = "text-danger">hate:</span></p>
+	
+	
+	<p>Date: 03/07/2018</p>
+	<h1>Headings n Stuff with div's</h1>
+	<p><code>href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"</code></p>
+	<div class="container-fluid row">
+	
+	<div class="col-xs-8"><h2 class="text-primary text-center" style="font-family: Lobster">CatPhotoApp In Lobster Type</h2></div>
+
+	<div class=col-xs-4><a href="#"><img class="img-responsive thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. "></a></div>
+
+	<img src="https://bit.ly/fcc-running-cats" class="img-responsive" alt="Three kittens running towards the camera. ">
+	</div>
+	</div>
+	
+	
+	<H2>Font Awesome Libraries</h2>
+	<p><code>link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"</code></p>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+	
+	<h3>Adding Icon to a button using font awesome css sheets</h3>
+	<p><code> link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"</code></p>
+	<button class="btn btn-block btn-primary">Like<i class="fa fa-thumbs-up"></i></button>
+	
+	<h3>spacing button and radios equally using class= col-xs-*</h3>
+	<div class="row">
+      <div class="col-xs-6">
+        <label><input type="radio" name="indoor-outdoor"> Indoor</label>
+      </div>
+      <div class="col-xs-6">
+        <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+      </div>
+    </div>
+    <div class="row">
+		<div class="col-xs-4"><label><input type="checkbox" name="personality"> Loving</label></div>
+		<div class="col-xs-4"><label><input type="checkbox" name="personality"> Lazy</label></div>
+		<div class="col-xs-4"><label><input type="checkbox" name="personality"> Crazy</label></div>
+    </div>
+	
+	<h3>Ditto for forms and buttons</h3>
+	<div class="row">
+		<div class="col-xs-7">
+			<input type="text" class="form-control" placeholder="cat photo URL" required>
+		</div>
+		<div class="col-xs-5">
+			<button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Submit</button>
+		</div>
+    </div>
+	<p>Date: 03/08/2018</p>
+	<h2>Wells and ids</h2>
+<script>
+	$(document).ready(function() {
+	$("button").addClass("animated bounce");
+	$(".well").addClass("animated shake");
+	});
+</script>
+
+	<div class="container-fluid">
+	  <h3 class="text-primary text-center">jQuery Playground</h3>
+	  <div class="row">
+		<div class="col-xs-6">
+		  <h4>#left-well</h4>
+		  <div class="well" id="left-well">
+			<button class="btn btn-default target" id="target1">#target1</button>
+			<button class="btn btn-default target" id="target2">#target2</button>
+			<button class="btn btn-default target" id="target3">#target3</button>
+		  </div>
+		</div>
+		<div class="col-xs-6">
+		  <h4>#right-well</h4>
+		  <div class="well" id="right-well">
+			<button class="btn btn-default target" id="target4">#target4</button>
+			<button class="btn btn-default target" id="target5">#target5</button>
+			<button class="btn btn-default target" id="target6">#target6</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+>>>>>>> 1b1b2a3510366d6a20e2e73ef48afdfb31be5aff
 =======
 <h2>Disregard The things you see below, for educational purposes only</h2>
 	<p>At the moment tebora is basic, it's a bunch of links and a poorly written opening to a sci-fi novel.It is however, my hope to evolve this site into something that is not so shitty. As you scroll down through this site take note of the progression and the slow evolution content and features, if you can't scroll down then I have just started my journey, hold tight though I promise it will get better. </p>

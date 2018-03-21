@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <div class="container-fluid"><!--this spans the entire page of html code. This enables bootstrap to work on the page-->
   
 <div class="row"><!--creates a row for the headings elements-->
@@ -390,6 +391,399 @@
      </div><!--"well" div--> 
    </div><!--col 2 of 2-->
 </div>  <!--closes row-->
+=======
+<div class="container-fluid"><!--this spans the entire page of html code. This enables bootstrap to work on the page-->
+  
+<div class="row"><!--creates a row for the headings elements-->
+  <div class="col-xs-2">
+    <h1> H1 </h1>
+  </div>  
+  <div class="col-xs-2">
+    <h2> H2 </h2>
+  </div>  
+  <div class="col-xs-2">
+    <h3> H3 </h3>
+  </div>  
+  <div class="col-xs-2">
+    <h4> H4 </h4>
+  </div>  
+  <div class="col-xs-2">
+    <h5> H5 </h5>
+  </div>  
+  <div class="col-xs-2">
+    <h5> H6 </h6>
+  </div>
+</div><!--closes the heading element row-->
+
+<p> This is the <b>P</b>aragraph element. There is a hidden comment at the end of this code. </P> <!-- This is that comment -->
+<p> <i>lorem ipsum</i> is used as placeholder text</p>
+
+<p style = "color:red"> This is an <b>in-line</b> change of <b>element style</b>. In this case, color is changed. </p>
+
+<p class = "big-blue"> This is styled by CSS. It has a differnt font-family. It's color style overrides the default style.<p>
+ 
+ <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"><!--This imports the font-->
+<p id="import-font"> This is an imported font</p>
+
+<img src="http://sos.noaa.gov/ftp_mirror/astronomy/io/original/media/thumbnail_small.jpg" alt="picture of Jupiter's moon Io"> <!-- This is how an image is inserted. <img> elements should always have an "alt" attribute in case the photo cannot load.-->
+<img src="http://sos.noaa.gov/ftp_mirror/astronomy/io/original/media/thumbnail_small.jpg" alt="picture of Jupiter's moon Io" width=150px> <!--this one's size is manipulated by the width attribute-->
+<img src="http://sos.noaa.gov/ftp_mirror/astronomy/io/original/media/thumbnail_small.jpg" alt="picture of Jupiter's moon Io" class="red-border">
+
+
+<div class="row"><!--row-->
+  <div class="col-xs-4">
+      <div class="text-border">
+        <p> 
+          <a href="     https://www.w3schools.com/tags/tag_a.asp">   Anchor elements
+          </a> allow for links
+        </p>
+      </div>
+  </div>  
+  <div class="col-xs-4">
+     <div class="text-border">
+      <p> This is a 
+        <a href="#">Dead Link
+        </a>
+      </p>
+    </div>
+  </div>
+  <div class="col-xs-4">  
+    <div class="text-border">
+      <p>This moon is also a link
+        <a href="https://en.wikipedia.org/wiki/Io_(moon)">
+          <img src="http://sos.noaa.gov/ftp_mirror/astronomy/io/original/media/thumbnail_small.jpg" alt="picture of Jupiter's moon Io">          </a>
+    </div>
+  </div>  
+</div><!--closes the row-->
+  
+  
+<div class="list-border">
+<p style=font-family:monospace;> What's wrong with lists?: </p>
+<ul>
+  <li>boring</li>
+  <li>ugly</li>
+  <li>stupid</li>
+</ul>
+  <p> Also:</p>  
+<ol>
+  <li> numnbers</li>
+  <li> don't</li>
+  <li> help</li>
+</ol>
+</div>
+
+<div class="text-border">
+  <p> I can ask you to type something here   <input type="text"></p>
+</div>
+<div class="text-border">
+  <p> This one has <b>placeholder</b> text   <input type="text" placeholder="type something here">
+</div>
+<div class="form-border">
+<p><b>Form elements</b> can submit data to a server.<form action="/submit data"><input type="text" placeholder="insert data"></form>
+</div>
+<div class="form-border">
+  <p>It'll look nicer if its given a submit button</p>
+  <form action="/submit-this-data"><input type="text" placeholder="data here"></form>
+  <button type="submit">Click to Submit</button>
+</div>
+<div class="form-border">
+  <p>Can't go on without filling this feild</p>
+  <form action="/submit-data"><input type="text" required><button type="submit">Must click here</button></form>
+</div>
+
+<div class="form-border">
+  <p>This form has <b>radio buttons</b> and you can only select one option. And you <i>have to</i> select one.</p>
+  <form action="/submit-data">
+    <label><input type="radio" name="this-or-that">THIS</label>
+    <label><input type="radio" name="this-or-that">THAT</label>
+  </form>
+</div>
+
+<div class="form-border">
+  <p>You can select multiple options with <b>checkboxes</b>.
+    <form action="/submit">
+      <label>
+        <input type="checkbox" name="moons">
+        Enceladus
+      </label>
+      <label>
+        <input type="checkbox" name="moons">Titan
+      </label>
+      <label><input type="checkbox" name="moons">Io
+      </label>
+  </form>
+</div>
+
+<div class="silver-background">
+  <p> These optoins are checked by default. Monospace is assigned by <b>id</b> rather than class</p>
+  <form id="dino-form" action="/submit">
+    <label><input type="radio" name="dino">
+    Stegosaurus</label>
+    <label><input type="radio" name="dino"
+           checked>
+    Tyrannosaurus</label>
+    <label><input type="checkbox" name="properties" checked>Big</label>
+    <label><input type="checkbox" name="properties" checked>Scary</label>
+    <label><input type="checkbox" name="properties" checked>Loud</label>
+  </form>
+</div>
+
+
+  <p class="pad"> The <b>Padding</b> propertiy dictates the amout of space between an element and its border (in this case the text is 55 pixels from the .text-border CSS style. The text is sitting in the bottom right of the element because different values are asisgned to the top,right,bottom, and left.<p>
+
+
+
+  <p id="margin-example"> The <b>Margin</b> property styles the space between an element's border and the surronding elements. This element has no padding. It has a lot of margin on its right and left sides.
+</p>
+
+<p class="neg-margin"> You can set margin values to negative. This causes the element to become larger. You can see it is spilling further left and right than the other elements.</p>
+
+<p class="text-border"> By the way, the background color to this whole page is set in CSS by stylign the <b>body</b> element inherent to all pages. This is set at the very top of the CSS for this page to "lightblue". There is even a margin set. If you were to set a "color" style, <b><i>all</i></b> elements would have that color</p>
+
+<div class="pad" style="background-color:pink">
+  <p style="color:#fff"> <span style="color:rgb(270,0,0)">There are</span> <span style="color:#aa0011">many ways</span> <span style="color:hsl(270,60%,60%)">to manipulate</span> colors in HTML and CSS<p/>
+</div>
+
+<div class="concept-border" >
+</div>
+
+<p style="font-size:35px"><span style="color:white"><b>Bootstrap</b><span style="font-size:25px"> is a responsive design CSS framework. It will figure out the size of the screen your device has and size elements appropriately.</span></span></p>
+
+<img src="https://www.sciencekids.co.nz/images/pictures/earth/metamorphicrock.jpg" class="img-responsive red-border">
+<p class="text-center">Bootstrap will keep this text and the image above sized to fit any screen</p>
+
+<p class="text-center">Bootstrap even has fancy <button class="btn">buttons</button>.</p>
+
+<button class="btn btn-block">Like this one that fills the width of the page.</button>
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css/">
+<div class="row">
+  <div class="col-xs-4">
+    <buttton class="btn btn-block btn-primary fa fa-thumbs-up"><i class="fa fa-thumbs-up"></i>You can change</button>
+    </div>
+ <div class="col-xs-4">
+  <button class="btn btn-block btn-info">the color</button>
+  </div>
+   <div class="col-xs-4"><button class="btn btn-block btn-danger"> of buttons, also</button>
+  </div>
+</div>
+<p> Elements can be placed side-by-side ^^^ by surronding all of the the elements with a <b><span class="code-color">div class="row"</b></span> and also surronding each with a <b><span class="code-color"> div class="col-xs-*"</b></span> element.
+
+  
+  
+  
+
+ <div class="row">
+   <div class="col-xs-6">
+     <div class="well">
+       <button class="btn btn-default target" id="target1">These buttons are slightly different
+       </button>
+     </div><!--"well" div-->
+   </div><!--col 1 of 2--> 
+   <div class="col-xs-6">
+     <div class="well">
+       <button class="btn btn-default target" id="target2">and have a sense of depth in their columns.
+       </button>
+     </div><!--"well" div--> 
+   </div><!--col 2 of 2-->
+</div>  <!--closes row-->
+</div><!--container-fluid closing div--> 
+<div class="container-fluid"><!--this spans the entire page of html code. This enables bootstrap to work on the page-->
+  
+<div class="row"><!--creates a row for the headings elements-->
+  <div class="col-xs-2">
+    <h1> H1 </h1>
+  </div>  
+  <div class="col-xs-2">
+    <h2> H2 </h2>
+  </div>  
+  <div class="col-xs-2">
+    <h3> H3 </h3>
+  </div>  
+  <div class="col-xs-2">
+    <h4> H4 </h4>
+  </div>  
+  <div class="col-xs-2">
+    <h5> H5 </h5>
+  </div>  
+  <div class="col-xs-2">
+    <h5> H6 </h6>
+  </div>
+</div><!--closes the heading element row-->
+
+<p> This is the <b>P</b>aragraph element. There is a hidden comment at the end of this code. </P> <!-- This is that comment -->
+<p> <i>lorem ipsum</i> is used as placeholder text</p>
+
+<p style = "color:red"> This is an <b>in-line</b> change of <b>element style</b>. In this case, color is changed. </p>
+
+<p class = "big-blue"> This is styled by CSS. It has a differnt font-family. It's color style overrides the default style.<p>
+ 
+ <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"><!--This imports the font-->
+<p id="import-font"> This is an imported font</p>
+
+<img src="http://sos.noaa.gov/ftp_mirror/astronomy/io/original/media/thumbnail_small.jpg" alt="picture of Jupiter's moon Io"> <!-- This is how an image is inserted. <img> elements should always have an "alt" attribute in case the photo cannot load.-->
+<img src="http://sos.noaa.gov/ftp_mirror/astronomy/io/original/media/thumbnail_small.jpg" alt="picture of Jupiter's moon Io" width=150px> <!--this one's size is manipulated by the width attribute-->
+<img src="http://sos.noaa.gov/ftp_mirror/astronomy/io/original/media/thumbnail_small.jpg" alt="picture of Jupiter's moon Io" class="red-border">
+
+
+<div class="row"><!--row-->
+  <div class="col-xs-4">
+      <div class="text-border">
+        <p> 
+          <a href="     https://www.w3schools.com/tags/tag_a.asp">   Anchor elements
+          </a> allow for links
+        </p>
+      </div>
+  </div>  
+  <div class="col-xs-4">
+     <div class="text-border">
+      <p> This is a 
+        <a href="#">Dead Link
+        </a>
+      </p>
+    </div>
+  </div>
+  <div class="col-xs-4">  
+    <div class="text-border">
+      <p>This moon is also a link
+        <a href="https://en.wikipedia.org/wiki/Io_(moon)">
+          <img src="http://sos.noaa.gov/ftp_mirror/astronomy/io/original/media/thumbnail_small.jpg" alt="picture of Jupiter's moon Io">          </a>
+    </div>
+  </div>  
+</div><!--closes the row-->
+  
+  
+<div class="list-border">
+<p style=font-family:monospace;> What's wrong with lists?: </p>
+<ul>
+  <li>boring</li>
+  <li>ugly</li>
+  <li>stupid</li>
+</ul>
+  <p> Also:</p>  
+<ol>
+  <li> numnbers</li>
+  <li> don't</li>
+  <li> help</li>
+</ol>
+</div>
+
+<div class="text-border">
+  <p> I can ask you to type something here   <input type="text"></p>
+</div>
+<div class="text-border">
+  <p> This one has <b>placeholder</b> text   <input type="text" placeholder="type something here">
+</div>
+<div class="form-border">
+<p><b>Form elements</b> can submit data to a server.<form action="/submit data"><input type="text" placeholder="insert data"></form>
+</div>
+<div class="form-border">
+  <p>It'll look nicer if its given a submit button</p>
+  <form action="/submit-this-data"><input type="text" placeholder="data here"></form>
+  <button type="submit">Click to Submit</button>
+</div>
+<div class="form-border">
+  <p>Can't go on without filling this feild</p>
+  <form action="/submit-data"><input type="text" required><button type="submit">Must click here</button></form>
+</div>
+
+<div class="form-border">
+  <p>This form has <b>radio buttons</b> and you can only select one option. And you <i>have to</i> select one.</p>
+  <form action="/submit-data">
+    <label><input type="radio" name="this-or-that">THIS</label>
+    <label><input type="radio" name="this-or-that">THAT</label>
+  </form>
+</div>
+
+<div class="form-border">
+  <p>You can select multiple options with <b>checkboxes</b>.
+    <form action="/submit">
+      <label>
+        <input type="checkbox" name="moons">
+        Enceladus
+      </label>
+      <label>
+        <input type="checkbox" name="moons">Titan
+      </label>
+      <label><input type="checkbox" name="moons">Io
+      </label>
+  </form>
+</div>
+
+<div class="silver-background">
+  <p> These optoins are checked by default. Monospace is assigned by <b>id</b> rather than class</p>
+  <form id="dino-form" action="/submit">
+    <label><input type="radio" name="dino">
+    Stegosaurus</label>
+    <label><input type="radio" name="dino"
+           checked>
+    Tyrannosaurus</label>
+    <label><input type="checkbox" name="properties" checked>Big</label>
+    <label><input type="checkbox" name="properties" checked>Scary</label>
+    <label><input type="checkbox" name="properties" checked>Loud</label>
+  </form>
+</div>
+
+
+  <p class="pad"> The <b>Padding</b> propertiy dictates the amout of space between an element and its border (in this case the text is 55 pixels from the .text-border CSS style. The text is sitting in the bottom right of the element because different values are asisgned to the top,right,bottom, and left.<p>
+
+
+
+  <p id="margin-example"> The <b>Margin</b> property styles the space between an element's border and the surronding elements. This element has no padding. It has a lot of margin on its right and left sides.
+</p>
+
+<p class="neg-margin"> You can set margin values to negative. This causes the element to become larger. You can see it is spilling further left and right than the other elements.</p>
+
+<p class="text-border"> By the way, the background color to this whole page is set in CSS by stylign the <b>body</b> element inherent to all pages. This is set at the very top of the CSS for this page to "lightblue". There is even a margin set. If you were to set a "color" style, <b><i>all</i></b> elements would have that color</p>
+
+<div class="pad" style="background-color:pink">
+  <p style="color:#fff"> <span style="color:rgb(270,0,0)">There are</span> <span style="color:#aa0011">many ways</span> <span style="color:hsl(270,60%,60%)">to manipulate</span> colors in HTML and CSS<p/>
+</div>
+
+<div class="concept-border" >
+</div>
+
+<p style="font-size:35px"><span style="color:white"><b>Bootstrap</b><span style="font-size:25px"> is a responsive design CSS framework. It will figure out the size of the screen your device has and size elements appropriately.</span></span></p>
+
+<img src="https://www.sciencekids.co.nz/images/pictures/earth/metamorphicrock.jpg" class="img-responsive red-border">
+<p class="text-center">Bootstrap will keep this text and the image above sized to fit any screen</p>
+
+<p class="text-center">Bootstrap even has fancy <button class="btn">buttons</button>.</p>
+
+<button class="btn btn-block">Like this one that fills the width of the page.</button>
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css/">
+<div class="row">
+  <div class="col-xs-4">
+    <buttton class="btn btn-block btn-primary fa fa-thumbs-up"><i class="fa fa-thumbs-up"></i>You can change</button>
+    </div>
+ <div class="col-xs-4">
+  <button class="btn btn-block btn-info">the color</button>
+  </div>
+   <div class="col-xs-4"><button class="btn btn-block btn-danger"> of buttons, also</button>
+  </div>
+</div>
+<p> Elements can be placed side-by-side ^^^ by surronding all of the the elements with a <b><span class="code-color">div class="row"</b></span> and also surronding each with a <b><span class="code-color"> div class="col-xs-*"</b></span> element.
+
+  
+  
+  
+
+ <div class="row">
+   <div class="col-xs-6">
+     <div class="well">
+       <button class="btn btn-default target" id="target1">These buttons are slightly different
+       </button>
+     </div><!--"well" div-->
+   </div><!--col 1 of 2--> 
+   <div class="col-xs-6">
+     <div class="well">
+       <button class="btn btn-default target" id="target2">and have a sense of depth in their columns.
+       </button>
+     </div><!--"well" div--> 
+   </div><!--col 2 of 2-->
+</div>  <!--closes row-->
+>>>>>>> 1b1b2a3510366d6a20e2e73ef48afdfb31be5aff
 =======
 <div class="container-fluid"><!--this spans the entire page of html code. This enables bootstrap to work on the page-->
   
